@@ -12,4 +12,8 @@ export class FlashCardListsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onAddFlashCard() {
+
+  }
+
 }

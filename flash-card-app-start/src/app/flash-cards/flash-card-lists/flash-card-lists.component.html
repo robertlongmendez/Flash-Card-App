@@ -1,7 +1,15 @@
-<div class="card" style="border:thin" >
-  <div class="col-sm-12">
-    <p>Flash Card</p>
+<div class="container-fluid">
+  <div class="col-md-6 bg-info">
+    <div class="row border-thin">
+        <p class="bg-primary text-center text-info">Flash Card Front</p>
+    </div>
   </div>
-  <div class="card-body" class="alert-box">
+  <div class="container-fluid">
+<div class="col-md-6 bg-primary">
+  <div class="row">
+    <p class="bg-info text-center text-primary">Flash Card Back</p>
   </div>
+</div>
+  </div>
+  <button class="btn btn-primary" (click)="onAddFlashCard()">Add Flash Card</button>
 </div>
